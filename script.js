@@ -37,41 +37,7 @@ ScrollReveal().reveal('.right-banner , .about-content ,.timeline , .project-cont
 ScrollReveal().reveal('.btn-box , .contact-left ,.skill-content'  , {origin:'left'})
 ScrollReveal().reveal('.contact-right , .skill-img ,.about-image'  , {origin:'right'})
 
-
-
-
-
-
-
-function sendEmail(){
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "santoshiharsh30@gmail.com",
-        Password : "HARSH!05052002",
-        To : 'santoshiharsh30@gmail.com',
-        From : document.getElementById('email'),
-        Subject : document.getElementById('subject'),
-        Body : document.getElementById('message')
-    }).then(
-      message => alert(message)
-    );
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Setting bar of the skill section
 let element = document.getElementsByClassName("bar")
 for (let i =0 ;i<element.length ;i++){
     let size = element[i].innerHTML;
