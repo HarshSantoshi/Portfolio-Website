@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- BoxIcons-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://kit.fontawesome.com/b3348ae33f.js" crossorigin="anonymous"></script>
+
+<title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class='bx bx-menu' id="menu-btn"></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section Starts -->
+        <section class="banner" id="home">
+            <div class="left-banner">
+                <div>
+                    Hello, My Name is <div><span class="highlight">Harsh Santoshi </span></div>
+                    <div> and I am a <div><span id="element" class="text-animate "></span></div>
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <a href=""  target="_blank" id="resume">My Resume</a>
+                </div>
+            </div>
+            <div class="right-banner"><img src="images/Banner img.jpg" alt="Banner img"></div>
+        </section>
+        <!-- Home Section Ends -->
+
+        <!-- About Section Starts -->
+        <section class="about" id="about">
+            <h1 class="section-heading">
+                <span>
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                </span>
+                <span>About Me </span>
+            </h1>
+            <div class="about-image">
+                <img src="myimage.jpg" alt="My Image">
+                <span class="spin-circle"></span>
+            </div>
+
+            <div class="about-content">
+                <p>Hello and welcome to my Portfolio Website! My name is <span class="fs-20px pc">Harsh Santoshi</span>,
+                    and I am pursuing B.Tech in Software Engineering from Delhi Technological University.I am passionate
+                    about exploring new ideas and discovering innovative ways to tackle complex challenges.I am on the
+                    journey of learning new things and be a better version of myself. Throughout my academic career, I
+                    have gained some knowledge in Web Development and Machine Language and learning more about the
+                    same.I enjoy playing cricket and badminton with my friends in my free time. I believe that
+                    maintaining a balance between academic and personal pursuits is important, as it helps me stay
+                    energized and engaged in all aspects of my life. If you have any questions or would like to get in
+                    touch, please feel free to contact me.</p>
+            </div>
+        </section>
+
+        <!-- About Section Ends -->
+
+        <!-- Education section Starts -->
+        <section id="education">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    
+                </span>
+                <span> Education </span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="images/dtu.jpg">
+                        </div>
+                        <h3 class="education-designation  m0"> B.Tech Software Engineering </h3>
+                        <h4 class="education-company-name "> Delhi Technological University </h4>
+                        <h5 class="education-duration m0"> 2021 -2025 </h5>
+
+                        <p class="education-description text-align-justify"> Currently I am in 2nd year of my college pursuing Software Enginerring. My CGPA till 3rd sem is 8.72. </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="images/school logo.jpg" alt="Image">
+                        </div>
+                        <h3 class="education-designation  m0 "> Class XII </h3>
+                        <h4 class="education-company-name "> Satyakaam International School</h4>
+                        <h5 class="education-duration m0"> 2019-2020 </h5>
+                        <p class="education-description text-align-justify"> Completed my class XII in 2020 with an aggregate of 97.2% and became school topper in CBSE examination.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="images/school logo.jpg" alt="Institute logo">
+                        </div>
+                        <h3 class="education-designation  m0"> Class X </h3>
+                        <h4 class="education-company-name "> Satyakaam International School </h4>
+                        <h5 class="education-duration m0"> 2017-2018 </h5>
+
+                        <p class="education-description text-align-justify">Completed my class X in 2018 with an aggregate of 93% .</p>
+                    </div>
+                </div>
+                
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-car-side" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Education Section Ends -->
+
+        <!-- Projects Section Starts -->
+
+        <section class="projects" id="projects">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                </span>
+                <span> My Projects </span>
+            </h1>
+            <div class="project-container">
+                <div class="projects-box">
+                    <img src="images/project1.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Audio-Zone</h4>
+                        <p>A music player website to listen your favourite songs.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="projects-box">
+                    <img src="images/project2.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Ping-Pong</h4>
+                        <p>A game developed by Javascript in which ball is handled by keyboard with the help of paddles</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="projects-box">
+                    <img src="images/project3.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Snake Game</h4>
+                        <p>A game developed by Javascript. Snake eat the red blocks using keypress events</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="projects-box">
+                    <img src="images/project4.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Portfolio Website</h4>
+                        <p>Developed a Portfolio webiste to showcase my projects and skills.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section Ends -->
+
+        <!-- Skills Section Starts -->
+        <section class="skill mb75px" id="skill">
+            <h1 class="section-heading">
+                <span>
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                </span>
+                <span>My Skills</span>
+            </h1>
+            <div class="skill-box">
+                <div class="skill-content">
+                    <div class="progress">
+                        <h3>HTML<span></span> </h3>
+                        <div class="bar">90</div>
+                    </div>
+                    <div class="progress">
+                        <h3>CSS <span></span> </h3>
+                        <div  class="bar">85</div>
+                    </div>
+                    <div class="progress">
+                        <h3>Javascript<span></span> </h3>
+                        <div  class="bar">75</div>
+                    </div>
+                    <div class="progress">
+                        <h3>C++<span></span> </h3>
+                        <div  class="bar">91</div>
+                    </div>
+                    <div class="progress">
+                        <h3>Python<span></span> </h3>
+                        <div  class="bar">70</div>
+                    </div>
+                    <div class="progress">
+                        <h3>React <span></span> </h3>
+                        <div  class="bar">76</div>
+                    </div>
+                    <div class="progress">
+                        <h3>NodeJs<span></span> </h3>
+                        <div  class="bar">79</div>
+                    </div>
+                    <div class="progress">
+                        <h3>MongoDB<span></span> </h3>
+                        <div  class="bar">66</div>
+                    </div>
+                </div>
+                <div class="skill-img">
+                    <img src="images/skill.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section Ends -->
+
+        <!-- Contact Section Starts -->
+        <section class="contact" id="contact">
+            <h1 class="section-heading mb20px">
+                <span>
+                    <i class='bx bxs-contact'></i>
+                </span>
+                <span>Contact Me</span>
+            </h1>
+        
+                <div class="row">
+                    <div class="contact-left">
+                        <p><i class='bx bx-envelope'></i>santoshiharsh30@gmail.com</p>
+                        <p><i class='bx bx-phone'></i>+917983985550</p>
+                        <div class="social-icons">
+                            <a href="">
+                                <i class='bx bxl-linkedin'></i>
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                        <div class="btn-box">
+                            <a href="" id="resume">Download Resume</a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form action="https://formsubmit.co/el/zibisa" method="POST">
+                           <div class="same">
+                            <input type="text" name="name" id ="name" placeholder="Your name" required>
+                            <input type="text" name="subject" id ="subject" placeholder="Enter Subject" required>
+                           </div>
+                            <input type="email" name ="email" id="email" placeholder="Your email" required>
+                            <textarea name="message" id="message"  rows="6" placeholder="Enter your message"></textarea>
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+        
+        </section>
+        <!-- Contact Section Ends -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy;2023 by Harsh | All Rights Reserved.</p>
+            </div>
+            <footer class="Top">
+                <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+            </footer>
+        </footer>
+        
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Coding Enthusiast'],
+            typeSpeed: 100,
+            backSpeed:10,
+            backDelay:1000,
+            loop: true
+        });
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
